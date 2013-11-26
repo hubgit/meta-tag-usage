@@ -16,7 +16,7 @@ google.setOnLoadCallback(function(){
 
 	var beforeSearch = function(control, searcher, query) {
 		searcher.setQueryAddition('more:pagemap:metatags-' + form.tag.value);
-	    searcher.setResultSetSize(20);
+	        searcher.setResultSetSize(20);
 	};
 
 	customSearchControl.setSearchStartingCallback(this, beforeSearch);
